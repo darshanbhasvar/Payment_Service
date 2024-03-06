@@ -1,2 +1,10 @@
-package com.darshan.payment_service.dtos;public class CreatePaymentLinkRequestDto {
+package com.darshan.payment_service.dtos;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class CreatePaymentLinkRequestDto {
+    private String orderId;
 }
